@@ -1,0 +1,28 @@
+POST  http://localhost:3001/register
+
+{
+  "username": "adam_richard",
+  "name": "Adam Richard",
+  "password": "richard_567",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+###
+
+POST http://localhost:3001/login
+
+{
+  "username": "adam_richard",
+  "password": "richard_567"
+}
+
+###
+
+PUT  http://localhsot:3001/change-password
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_567",
+  "newPassword": "richard@123"
+}
